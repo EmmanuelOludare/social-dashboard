@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+			font-family: 'Inter', sans-serif;	 
+}
+body{
+				
+}
+content{
+
+}
+.attribution { font-size: 15px; text-align: center; 
+margin-top: 10px;
+font-weight: bolder;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+.header h4{
+				color: hsl(228, 12%, 44%);
+				margin-top: -10px;
+}
+.header{
+				margin-left: 30px;
+				margin-right: 30px;
+}
+.darkmode{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: baseline;
+				max-width: 350px;
+				margin-left: 30px;
+				margin-right: 30px;
+}
+.darkmode h4{
+					color: hsl(228, 12%, 44%);
+}
+up.{
+     background: black;
+     width: 350px;
+     height: 1px;
+     position: relative;
+     left: 0;
+     right: 0;
+     margin: auto;
+}
+.followers-section{
+				text-align: center;
+				display: grid;
+				grid-template-columns: 350px;
+				justify-content: center;
+				grid-gap: 20px;
+}
+.followers{
+				background: hsl(227, 47%, 96%);
+				border-radius: 15px;
+				cursor: pointer;
+}
+.followers:hover{
+			background: whitesmoke;	
+}
+.dailystats:hover{
+				background: whitesmoke;	
+}
+.followers h4{
+				color: hsl(228, 12%, 44%);
+				font-size: 12px;
+}
+.followers h1{
+				font-size:55px;
+				margin-top: -10px;
+}
+.followers figcaption{
+				font-size: 20px;
+				font-weight: lighter;
+				margin-top: -45px;
+				color: hsl(228, 12%, 44%);
+				text-transform: uppercase;
+				letter-spacing: 3px;
+}
+.followers p{
+				color: hsl(163, 72%, 41%);
+				font-size: 12px;
+				font-weight: bolder;
+}
+.followers4 p{
+				color: hsl(356, 69%, 56%);
+}
+.followers1 hr{
+				background:hsl(208, 92%, 53%) ;
+				height: 3px;
+				margin-top: 2px;
+				border-radius: 20px;
+}
+.followers2 hr{
+				background:hsl(203, 89%, 53%);
+				height: 3px;
+				margin-top: 2px;
+				border-radius: 20px;
+}
+.followers3 hr{
+     	background-image: linear-gradient(hsl(37, 97%, 70%),hsl(329, 70%, 58%));
+				height: 3px;
+				margin-top: 2px;
+				border-radius: 20px;
+}
+.followers4 hr{
+				background:hsl(348, 97%, 39%);
+				height: 3px;
+				margin-top: 2px;
+				border-radius: 20px;
+}
+.dailystats-section{
+				display: grid;
+				grid-template-columns:350px;
+				grid-template-rows:repeat(8,110px);
+				grid-gap: 20px;
+				justify-content: center;
+}
+.dailystats{
+				background: hsl(227, 47%, 96%);
+				border-radius: 20px;
+				padding: 20px;
+				cursor: pointer;
+}
+.dailystats h4{
+				color: hsl(228, 12%, 44%);
+}
+.top{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: baseline;
+				margin-top: -20px;
+}
+.bottom{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: baseline;
+				margin-top: -35px;
+}
+.me img{
+				margin-right: 50px;
+				margin-top: 50px;
+}
+.dailystats p{
+				color: hsl(163, 72%, 41%);
+				font-weight: bolder;
+				font-size: 12px;
+}
+.dailystats2 p,.dailystats7 p,.dailystats8 p{
+				color: hsl(356, 69%, 56%);
+}
+           label{
+												position: absolute;
+												height: 25px; 
+												width: 50px;
+												right: 30px;
+												top:130px;
+												border: 2px solid;
+												border-radius: 20px;
+												background: hsl(230, 22%, 74%);
+												cursor: pointer;
+								} 
+								label:before{
+												position: absolute;
+												content: "";
+												height: 17px;
+												width: 17px;
+												right:2.5px;
+												top: 2.5px;
+												border: 1px solid white;
+												border-radius: 50%;
+												cursor: pointer;
+												background: white;
+												transition: .4s;
+								}
+								label.darkmove:before{
+												right: 27px;
+												background: hsl(230, 17%, 14%);
+												transition: .4s;
+								}
+								label.dark{
+										background-image: linear-gradient(hsl(210, 78%, 56%),hsl(146, 68%, 55%));
+										transition: .4s;
+								}
+								.night{
+												color: white;
+												background: black;
+												transition: .4s;
+								}
+								.darkbg{
+												background: hsl(232, 19%, 15%);
+												transition: .4s;
+								}
+								.darkbg:hover{
+												background: hsl(228, 28%, 20%);
+								}
+@media(min-width:600px){
+				.followers-section{
+				text-align: center;
+				display: grid;
+				grid-template-columns:repeat(4,300px);
+				justify-content: center;
+				grid-gap: 20px;
+		}
+		.dailystats-section{
+				display: grid;
+				grid-template-columns:repeat(4,300px);
+				grid-template-rows:repeat(2,110px);
+				grid-gap: 20px;
+				justify-content: center;
+}
+.up{
+				display: none;
+}
+
+label{
+				position: absolute;
+      top: 40px;
+      right:0px;
+}
+.darkmode h4{ position: absolute;
+              top: 30px;
+              right:60px;
+}
+.header{
+				margin-left: -30px;
+}
+}
+
+Colors
+
+### Primary
+
+- Lime Green: hsl(163, 72%, 41%)
+- Bright Red: hsl(356, 69%, 56%)
+
+- Facebook: hsl(208, 92%, 53%)
+- Twitter: hsl(203, 89%, 53%)
+- Instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%)
+- YouTube: hsl(348, 97%, 39%)
+
+#### Dark Theme
+
+- Toggle: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%)
+
+#### Light Theme
+
+- Toggle: hsl(230, 22%, 74%)
+
+### Neutral
+
+#### Dark Theme
+
+- Very Dark Blue (BG): hsl(230, 17%, 14%)
+- Very Dark Blue (Top BG Pattern): hsl(232, 19%, 15%)
+- Dark Desaturated Blue (Card BG): hsl(228, 28%, 20%)
+- Desaturated Blue (Text): hsl(228, 34%, 66%)
+- White (Text): hsl(0, 0%, 100%)
+
+#### Light Theme
+
+- White (BG): hsl(0, 0%, 100%)
+- Very Pale Blue (Top BG Pattern): hsl(225, 100%, 98%)
+- Light Grayish Blue (Card BG): hsl(227, 47%, 96%)
+- Dark Grayish Blue (Text): hsl(228, 12%, 44%)
+- Very Dark Blue (Text): hsl(230, 17%, 14%)
